@@ -289,6 +289,59 @@ footer{
 /*Qui sommes nous ?*/
 
 /*Parameter on video-list-qsn*/
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.who-we-are{
+    display: flex;
+    flex-direction: column;
+}
+.who-we-are-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.who-we-are-text p{ 
+    width: 460px;
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #7D7D7D;
+}
+.our-partner{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+.our-certifications{
+    display: flex;  
+    flex-direction: column;
+    flex-wrap: wrap; 
+    width: 1000px; 
+}
+.our-certifications p{
+    color: #7D7D7D;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+.certifications-text {
+    display: flex;  
+    flex-direction: row;  
+    flex-wrap: wrap;  
+}
+.certifications-text img{
+    height: 90px;
+}
+.certifications-text .col-1, .col-2, .col-3, .col-4{
+    margin: 10px;
+    width: 230px;
+}
+
 .video-list-qsn{
     display: flex;
     flex-direction: column;
@@ -318,18 +371,3 @@ footer{
 .partner-img img{
     height: 80px;
 }
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="laplateforme.css">
-    <title>Document</title>
-</head>
-<body>
-
-</body>
-</html>
